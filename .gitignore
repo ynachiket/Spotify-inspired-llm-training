@@ -1,0 +1,73 @@
+# Large files and data
+data/images/
+data/catalog.json
+data/products/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Trained models (too large for GitHub)
+trained_model/
+models/embeddings.npy
+models/clustering_hierarchy.pkl
+models/encoded_products.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+training.log
+scraper.log
+encoder.log
+test_output.txt
+demo_output.txt
+final_test.txt
+
+# Temporary files
+terminals/
+*.tmp
+*.bak

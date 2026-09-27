@@ -1,0 +1,12 @@
+{
+  "total_products": 100,
+  "total_tokens": 100,
+  "vocabulary_size": 100,
+  "clustering_levels": 4,
+  "clusters_per_level": [
+    32,
+    64,
+    100,
+    100
+  ]
+}
